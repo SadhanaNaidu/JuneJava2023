@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SalesForce">
+	
+	
+	<listeners>
+		<listener class-name="com.training.listeners.TestListener"></listener>
+	</listeners>
+	
+	<test name="SFDCUserMenu">
+		<classes>
+			<class name="com.training.TestCases.OppurtunitiesTest"></class>
+		</classes>
+	</test>
+	
+	
+	</suite>

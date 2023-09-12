@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SalesForce">
+	<parameter name="username" value="Myself@HomeComp.org"></parameter>
+	<parameter name="password" value="Really82"></parameter>
+	
+	<listeners>
+		<listener class-name="com.training.listeners.TestListener"></listener>
+	</listeners>
+	
+	 <test name="SFDCLogin">
+		<classes>
+			<class name="com.training.TestCases.LoginTest">
+				<!--<methods>
+               		<include name="CheckLoginError" />
+            	</methods> -->
+			</class>
+		</classes>
+	</test>
+	<!-- <test name="SFDCUserMenu">
+		<classes>
+			<class name="com.training.TestCases.UserMenuTest"></class>
+		</classes>
+	</test>-->
+	
+	 <!--<test name="SFDCCreateAccount">
+		<classes>
+			<class name="com.training.TestCases.CreateAccountTest"></class>
+		</classes>
+	</test>-->
+	
+	
+	
+	
+</suite>

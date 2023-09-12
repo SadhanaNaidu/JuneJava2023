@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [LoginCases]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.training.listeners.TestListener"/>
+  </listeners>
+  <test parallel="methods" name="OppurtunitiesTest(failed)">
+    <classes>
+      <class name="com.training.TestCases.OppurtunitiesTest">
+        <methods>
+          <include name="Beforemethod"/>
+          <include name="TestPipeLineReport"/>
+          <include name="NewOppurtunity"/>
+          <include name="CheckOppdropdown"/>
+          <include name="QuarterlySummaryReport"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.training.TestCases.OppurtunitiesTest -->
+    </classes>
+  </test> <!-- OppurtunitiesTest(failed) -->
+</suite> <!-- Failed suite [LoginCases] -->
